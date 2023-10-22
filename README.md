@@ -105,6 +105,7 @@ Below are the packages used in addition to the ones included in the default trai
 | timm 0.9.7 | https://github.com/rwightman/pytorch-image-models | |
 | dicomsdl 0.109.2 | https://github.com/tsangel/dicomsdl | https://www.kaggle.com/datasets/zacstewart/dicomsdl--0-109-2 |
 | pytorch-toolbelt | https://github.com/BloodAxe/pytorch-toolbelt | https://www.kaggle.com/bloodaxe/pytorch-toolbelt |
+| transformers 4.31.0 | https://github.com/huggingface/transformers | |
 
 
 
