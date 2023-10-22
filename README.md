@@ -79,7 +79,7 @@ CUDA_VISIBLE_DEVICES=0,2,3 python -m torch.distributed.launch --nproc_per_node=3
 CUDA_VISIBLE_DEVICES=0,2,3 python -m torch.distributed.launch --nproc_per_node=3 TRAIN/train_coatmedium384extravast.py --fold 0
 ```
 
-For inference notebooks and model weights, you may visit our final submission [notebook](https://www.kaggle.com/nischaydnk/604e8587410a-v2m-bin-weighted?scriptVersionId=70840526)
+For inference notebooks and model weights, you may visit our final submission [notebook](https://www.kaggle.com/nischaydnk/rsna-super-mega-lb-ensemble)
 
 
 ## Hardware
@@ -112,7 +112,6 @@ Below are the packages used in addition to the ones included in the default trai
 # Complete Writeup
  
 Here is the inference code you may refer: [link](https://www.kaggle.com/nischaydnk/rsna-super-mega-lb-ensemble) 
-Our GitHub repo w/ all preprocessing + training code: [Almost finished](https://github.com/Nischaydnk/RSNA-2023-1st-place-solution)
 
 #### **Split used:** 4 Fold GroupKFold ( Patient Level)
 
