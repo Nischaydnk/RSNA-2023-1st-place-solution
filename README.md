@@ -1,8 +1,10 @@
 # RSNA-2023-1st-place-solution
 Code and Documentation for the first place solution in 2023 Abdominal Trauma Detection Competition hosted by RSNA on Kaggle.
 
+## Reproduce solution 
 
-## Preprocessing
+
+### Preprocessing
 You can download the preprocessed theo data directly as instructed in the respective folders. Nevertheless, the steps for generating preprocessed datasets are as follows:
 1.
 ```
@@ -26,7 +28,7 @@ python Datasets/make_our_data_volumes.py
 ```
 
 
-## Reproduce solution 
+### Training models 
 
 For training and replicating our final solution, we have added python scripts for each models (all organs and bowel+extravasation) in `TRAIN` folder. Here are the steps to reproduce the trained models:
 
