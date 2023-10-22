@@ -89,6 +89,24 @@ All of our single models were trained using multiple 3090(local) or 3X A6000 ins
 [https://www.kaggle.com/docs/notebooks](https://www.kaggle.com/docs/notebooks)
 
 
+## Software
+
+We used [Kaggle GPU notebooks](https://github.com/Kaggle/docker-python/blob/master/gpu.Dockerfile) to run all our inference scripts.
+
+Below are the packages used in addition to the ones included in the default train scripts provided. All packages were installed via uploaded kaggle dataset.
+
+| Package Name | Repository | Kaggle Dataset |
+| --- |--- | --- |
+| pytorch 2.0.1 | https://github.com/pytorch/pytorch | |
+| pretrained models 0.7.4 | https://pypi.org/project/pretrainedmodels/ | https://www.kaggle.com/datasets/harshitsheoran/contrails-libraries |
+| segmentation_models_pytorch 0.3.3 | https://github.com/qubvel/segmentation_models.pytorch | https://www.kaggle.com/datasets/harshitsheoran/contrails-libraries |
+| efficientnet_pytorch 0.7.1 | https://github.com/lukemelas/EfficientNet-PyTorch | https://www.kaggle.com/datasets/harshitsheoran/contrails-libraries |
+| albumentations | https://github.com/albumentations-team/albumentations |  |
+| timm 0.9.7 | https://github.com/rwightman/pytorch-image-models | |
+| dicomsdl 0.109.2 | https://github.com/tsangel/dicomsdl | https://www.kaggle.com/datasets/zacstewart/dicomsdl--0-109-2 |
+| pytorch-toolbelt | https://github.com/BloodAxe/pytorch-toolbelt | https://www.kaggle.com/bloodaxe/pytorch-toolbelt |
+
+
 
 # Complete Writeup
  
