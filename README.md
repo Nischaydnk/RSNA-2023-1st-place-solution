@@ -27,6 +27,7 @@ python Datasets/make_theo_data_volumes.py
 python Datasets/make_our_data_volumes.py
 ```
 
+Once, all the data has been collected, you will need to place them in the right directory. For that, you can follow instructions and paths specified in `paths.py`.
 
 ### Training models 
 
